@@ -37,7 +37,7 @@ const (
 
 // This is a compile-time assertion that a sufficiently up-to-date version
 // of the legacy proto package is being used.
-const _ = proto.ProtoPackageIsVersion4
+const _ = proto.ProtoPackageIsVersion3
 
 type HttpConnectionManager_CodecType int32
 
